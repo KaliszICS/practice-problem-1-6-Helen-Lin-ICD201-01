@@ -9,6 +9,8 @@
 def q1():
   num1 = input("Input a number: ")
   num2 = input("Input a number: ")
+  num1 = int(num1)
+  num2 = int(num2)
   
   print(num1 + num2)
 
@@ -35,7 +37,7 @@ def q4():
   num2 = int(num2)
   print (int(num2 * num2))
 
-q1()
-q2()
-q3()
-q4()
+#q1()
+#q2()
+#q3()
+#q4()
